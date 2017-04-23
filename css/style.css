@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.landingpage {
+    background-image: url('../images/food-pizza.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: gray;
+}
+
+.header nav {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.header span {
+    margin-left: 20px;
+}
+
+.covertext {
+    position: relative;
+    top: 20%;
+    text-align: center;
+    color: #fff;
+}
+
+.covertext h1 {
+    font-size: 4em
+}
+
+.covertext p {
+    font-size: 2em
+}
