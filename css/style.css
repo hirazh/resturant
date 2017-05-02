@@ -43,3 +43,47 @@
 .covertext p {
     font-size: 2em
 }
+
+/*about*/
+.about {
+    height: 60vh;
+    text-align: center;
+}
+
+.about h2 {
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+
+#itemHeading {
+    text-align: center;
+    padding-bottom: 5%;
+}
+/*items*/
+
+.specialItems {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.specialItems img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px yellow solid;
+}
+
+/*contacts*/
+
+.contacts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.location img {
+    width: 350px;
+    height: 320px;
+}
