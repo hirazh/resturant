@@ -80,11 +80,13 @@
     padding-bottom: 10%;
 }
 
+/**/
 #itemHeading, #contactHeading, #socialHeading  {
     text-align: center;
-    padding-bottom: 5%;
     font-family: 'Shadows Into Light', cursive;
 }
+/**/
+
 /*items*/
 
 .specialItems {
@@ -110,7 +112,7 @@
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    border: 2px yellow solid;
+    border: 3px #ffeb3b solid;
 }
 
 /*contacts*/
@@ -118,12 +120,22 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    padding-bottom: 10%;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
 
 .locationImage img {
     width: 400px;
     height: 380px;
+}
+
+.contactInfo {
+    font-family: 'Shrikhand', cursive;
+    padding: 6%;
+}
+
+#email {
+    text-decoration: underline;
 }
 
 /*socialMedia*/
@@ -134,7 +146,8 @@
 }
 
 .social {
-    padding-bottom: 10%;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
 
 .social h4 {
@@ -143,13 +156,13 @@
 }
 
 .location img {
-    width: 300px;
+    width: 350px;
     height: 300px;
 }
 
 footer {
     padding: 30px;
-    background-color: yellow;
+    background-color: #ffeb3b;
     text-align: center;
     font-family: 'Shrikhand', cursive;
 }
